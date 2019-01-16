@@ -13,7 +13,7 @@ public class Binary_Tree_Postorder_Traversal {
     
     public java.util.List<Integer> postorderTraversal(TreeNode root, java.util.List<Integer> list) {
         if(root == null) return list;
-        postorderTraversal(root.left, list);
+        postorderTraversal(root.left, list); /////
         postorderTraversal(root.right, list);
         list.add(root.val);
         return list;
