@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/implement-trie-prefix-tree/
 class Trie {
     
     class TrieNode {
@@ -48,4 +49,7 @@ class Trie {
 		//System.out.println(current.word + " " + java.util.Arrays.toString(current.children));
 		return current != null;
     }
+}
+
+public class Implement_Trie_Prefix_Tree {
 }
