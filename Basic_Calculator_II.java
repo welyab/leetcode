@@ -56,6 +56,6 @@ public class Basic_Calculator_II {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new Basic_Calculator_II().calculate("3+2*2"));
+		System.out.println(new Basic_Calculator_II().calculate("3+2"));
 	}
 }
